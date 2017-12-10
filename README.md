@@ -32,7 +32,7 @@ webpack: 3.10.0
 
 ## Reproduction Steps
 
-1.  clone this repo: ``
+1.  clone this repo: `git clone git@github.com:csentis/ngbmodalbackdrop-universal-issue.git`
 1.  run `npm install --no-progress`
 1.  run `npm run universal`
 1.  once the last step has finished, open your browser and navigate to [localhost:4000](http://localhost:4000) 
