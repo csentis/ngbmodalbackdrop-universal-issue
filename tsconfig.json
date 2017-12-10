@@ -1,0 +1,34 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "target": "es5",
+        "types": [
+            "express",
+            "jasmine",
+            "jasmine-matchers",
+            "googlemaps",
+            "grecaptcha",
+            "protractor",
+            "selenium-webdriver",
+            "webpack"
+        ],
+        // needed for [webpack + ts-loader] or [webpack + awesome-typescript-loader + TsConfigLoader],
+        // otherwise both moduleResoultion 'node' and 'classic' will fail
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+    ]
+}

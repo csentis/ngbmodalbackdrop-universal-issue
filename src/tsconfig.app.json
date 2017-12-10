@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.json",
+    "angularCompilerOptions": {
+        "preserveWhitespaces": false
+    },
+    "compilerOptions": {
+        "outDir": "../out-tsc/app",
+        "baseUrl": ".",
+        "module": "es2015",
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "../main.server.ts"
+    ]
+}

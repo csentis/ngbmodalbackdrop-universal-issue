@@ -1,0 +1,25 @@
+// Component-specific styles for FooterComponent
+
+@import '../../../assets/styles/_customVariables.scss';
+
+footer {
+  background: $gray-800;
+  padding:($spacer *2) 0
+}
+
+.footer {
+  color: $gray-600;
+}
+
+.footer-divider {
+  background-color: $gray-400;
+}
+
+
+.footer-bottomline {
+  padding: ($spacer *2) 0 0 0;
+  text-align: center;
+  color: $gray-600;
+}
+
+
